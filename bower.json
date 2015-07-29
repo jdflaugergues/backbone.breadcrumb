@@ -1,0 +1,8 @@
+{
+  "name"          : "backbone.breadcrump",
+  "main"          : "backbone.breadcrump.js",
+  "dependencies"  : {
+    "backbone"  : ">=1.0.0"
+  },
+  "ignore"        : ["*.md", "package.json"]
+}
