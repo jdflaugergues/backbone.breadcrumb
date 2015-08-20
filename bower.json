@@ -1,8 +1,21 @@
 {
   "name"          : "backbone.breadcrumb",
-  "main"          : "backbone.breadcrump.js",
+  "description"   : "Extension of the History & Router Backbone to handle the navigation breadcrump.",
+  "main"          : "backbone.breadcrumb.js",
   "dependencies"  : {
     "backbone"  : ">=1.0.0"
   },
+  "keywords"      : [
+    "backbone",
+    "breadcrumb",
+    "history",
+    "fragment"
+  ],
+  "authors"       : ["Jonathan de Flaugergues <jdflaugergues@coservit.fr>"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jdflaugergues/backbone.breadcrumb.git"
+  },
+  "license"       : "MIT",
   "ignore"        : ["*.md", "package.json"]
 }
