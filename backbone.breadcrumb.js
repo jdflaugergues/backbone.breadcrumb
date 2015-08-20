@@ -1,12 +1,12 @@
 /**
- * @fileOverview Backbone (Backbone.BreadCrump)
+ * @fileOverview Backbone (Backbone.BreadCrumb)
  * This plugin extend the History & Router object of Backbone for allow to store the navigation breadcrump.
  * This also allow to handle the back functionnality usefull on mobile application for don't go back on
  * child route.
  * Distributed under MIT license
  *
- * @version 1.0
- * @author Jonathan de Flaugergue
+ * @version 1.0.0
+ * @author Jonathan de Flaugergues
  */
 
 (function() {
@@ -69,7 +69,7 @@
         back: function () {
 
             // Specific treatment on the home page or if there is no longer fragment
-            if( (Backbone.history.fragment == 'undefined') || ( Backbone.history.fragment != 'undefined' && ( Backbone.history.fragment == '' || Backbone.history.fragment == this.home) )) {
+            if( (Backbone.history.fragment == 'undefined') || ( Backbone.history.fragment != 'undefined' && ( Backbone.history.fragment == '' || Backbone.history.fragment == this.homeRoute) )) {
                 this.behaviorHomePage();
             } else {
 
