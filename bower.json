@@ -1,5 +1,5 @@
 {
-  "name"          : "backbone.breadcrump",
+  "name"          : "backbone.breadcrumb",
   "main"          : "backbone.breadcrump.js",
   "dependencies"  : {
     "backbone"  : ">=1.0.0"
