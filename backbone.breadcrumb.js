@@ -81,7 +81,8 @@
 
                     // remove from breadCrumb the child of current fragment
                     Backbone.History.breadcrumb = _.filter(Backbone.History.breadcrumb, function(fragment){
-                        return (Backbone.History.fragmentsArborescence[currentFragment.name].indexOf(fragment.name) == -1);
+                        var fragmentParsed = fragment.name.replace(/\/\w+/g, '');
+                        return (Backbone.History.fragmentsArborescence[currentFragment.name].indexOf(fragmentParsed) == -1);
                     });
 
                     if (Backbone.history.fragment == Backbone.History.breadcrumb[Backbone.History.breadcrumb.length-1].fragment){
