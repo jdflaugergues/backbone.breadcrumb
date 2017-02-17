@@ -11,7 +11,7 @@
     "history",
     "fragment"
   ],
-  "authors"       : ["Jonathan de Flaugergues <jdflaugergues@coservit.fr>"],
+  "authors"       : ["Jonathan de Flaugergues <jdflaugergues@gmail.com>"],
   "repository": {
     "type": "git",
     "url": "git://github.com/jdflaugergues/backbone.breadcrumb.git"

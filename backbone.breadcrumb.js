@@ -5,7 +5,7 @@
  * child route.
  * Distributed under MIT license
  *
- * @version 1.0.0
+ * @version 1.1.0
  * @author Jonathan de Flaugergues
  */
 
